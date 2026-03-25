@@ -33,10 +33,11 @@ export default function Navbar() {
       <div className="max-w-[1280px] mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-3">
-          {/* Logo placeholder - replace with actual logo */}
-          <div className="h-8">
-            <span className="font-display text-[24px] leading-none text-[#f0f0f0]">MOTIVE</span>
-          </div>
+          <img
+            src="/motive-logo.png"
+            alt="Motive Technologies"
+            className="h-8 w-auto"
+          />
         </div>
 
         {/* Nav Links */}

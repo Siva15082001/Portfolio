@@ -11,12 +11,13 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 pb-10 border-b border-[#1f1f1f]">
           {/* Left: Logo + Wordmark */}
           <div className="flex items-center gap-3">
-            {/* Logo placeholder */}
             <div>
-              <div className="font-display text-[32px] leading-none text-[#f0f0f0] uppercase">
-                Motive
-              </div>
-              <div className="font-sans text-[13px] tracking-[0.05em] text-[#666] mt-1">
+              <img
+                src="/motive-logo.png"
+                alt="Motive Technologies"
+                className="h-10 w-auto mb-1"
+              />
+              <div className="font-sans text-[13px] tracking-[0.05em] text-[#666]">
                 Technologies Inc
               </div>
             </div>
