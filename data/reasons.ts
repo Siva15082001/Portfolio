@@ -7,27 +7,27 @@ export interface Reason {
 export const reasons: Reason[] = [
   {
     number: '01',
-    title: 'Speed to Signal',
-    description: 'Compress prototype-to-demo from weeks to hours. Ship faster, learn faster, iterate before committing engineering resources.',
+    title: 'Speed to Validation',
+    description: 'Compress concept-to-clickable-prototype from weeks to hours. Validate product ideas before committing development resources.',
   },
   {
     number: '02',
-    title: 'PM & Design Autonomy',
-    description: 'Non-engineers build internal tools and product explorations without consuming engineering bandwidth.',
+    title: 'Product Team Autonomy',
+    description: 'PMs and designers build functional prototypes, test UX concepts, and create internal tools without engineering dependencies.',
   },
   {
     number: '03',
     title: 'Quality at Scale',
-    description: 'AI IDEs enforce consistent architecture patterns, generate tests automatically, and flag regressions before they ship.',
+    description: 'AI tools enforce best practices, generate production-ready code, and maintain consistency across rapid iterations.',
   },
   {
     number: '04',
-    title: 'Talent Density',
-    description: 'YC W25 data: 21% of startups run 95%+ AI-generated codebases. Motive engineers need fluency in this paradigm.',
+    title: 'Competitive Edge',
+    description: 'YC W25 data: 21% of startups run 95%+ AI-generated codebases. Product builders at Motive need fluency in vibe coding.',
   },
   {
     number: '05',
-    title: 'Reduce Prototype Debt',
-    description: 'Validate ideas in Lovable or Bolt, graduate clean code to Cursor, and avoid the costly full-rewrite cycle.',
+    title: 'Reduce Validation Costs',
+    description: 'Test product hypotheses in Lovable or Bolt, graduate validated concepts to production, and avoid building the wrong thing.',
   },
 ];

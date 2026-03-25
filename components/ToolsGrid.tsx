@@ -14,17 +14,17 @@ export default function ToolsGrid() {
   return (
     <section id="tools" className="border-b border-[#1f1f1f]">
       {/* Section Header */}
-      <div className="max-w-[1280px] mx-auto px-6 py-12 border-b border-[#1f1f1f]">
+      <div className="max-w-[1280px] mx-auto px-6 py-16 border-b border-[#1f1f1f]">
         <div className="flex items-center gap-4">
-          <span className="font-mono text-[10px] tracking-[0.25em] text-[#FF6200] uppercase">
+          <span className="font-mono text-[11px] tracking-[0.25em] text-[#3B82F6] uppercase">
             02 / Tools
           </span>
           <div className="h-[1px] flex-1 bg-[#1f1f1f]" />
         </div>
-        <h2 className="font-display text-[clamp(36px,5vw,72px)] leading-none text-[#f0f0f0] uppercase mt-4">
+        <h2 className="font-display text-[clamp(48px,6vw,96px)] leading-[0.95] text-[#f0f0f0] uppercase mt-6">
           The 8 Tools
           <br />
-          <span className="text-[#FF6200]">That Matter</span>
+          <span className="text-[#3B82F6]">That Matter</span>
         </h2>
       </div>
 
@@ -51,15 +51,15 @@ export default function ToolsGrid() {
 
                 <div className="relative z-10 flex flex-col h-full">
                   {/* Logo + Category */}
-                  <div className="flex items-start justify-between mb-5">
+                  <div className="flex items-start justify-between mb-6">
                     <div
-                      className="w-10 h-10 flex items-center justify-center border border-[#2e2e2e] font-display text-[22px] leading-none"
+                      className="w-12 h-12 flex items-center justify-center border border-[#2e2e2e] font-display text-[26px] leading-none"
                       style={{ color: tool.accentColor }}
                     >
                       {tool.letterMark}
                     </div>
                     <span
-                      className={`font-mono text-[9px] tracking-[0.15em] uppercase border px-2 py-1 ${
+                      className={`font-mono text-[10px] tracking-[0.15em] uppercase border px-2.5 py-1.5 ${
                         categoryColors[tool.category]
                       }`}
                     >
@@ -68,24 +68,24 @@ export default function ToolsGrid() {
                   </div>
 
                   {/* Name */}
-                  <h3 className="font-display text-[32px] leading-none text-[#f0f0f0] mb-2 uppercase">
+                  <h3 className="font-display text-[36px] leading-none text-[#f0f0f0] mb-3 uppercase">
                     {tool.name}
                   </h3>
 
                   {/* Tagline */}
-                  <p className="font-mono text-[11px] leading-[1.6] text-[#666] mb-5">
+                  <p className="font-sans text-[13px] leading-[1.6] text-[#888] mb-6">
                     {tool.tagline}
                   </p>
 
                   {/* Features */}
-                  <ul className="flex flex-col gap-2 mb-6 flex-1">
+                  <ul className="flex flex-col gap-2.5 mb-6 flex-1">
                     {tool.features.map((feature, i) => (
-                      <li key={i} className="flex items-start gap-2">
+                      <li key={i} className="flex items-start gap-2.5">
                         <span
-                          className="mt-[5px] w-[4px] h-[4px] rounded-full flex-shrink-0"
+                          className="mt-[6px] w-[5px] h-[5px] rounded-full flex-shrink-0"
                           style={{ backgroundColor: tool.accentColor }}
                         />
-                        <span className="font-mono text-[11px] leading-[1.5] text-[#888]">
+                        <span className="font-sans text-[13px] leading-[1.6] text-[#aaa]">
                           {feature}
                         </span>
                       </li>
@@ -95,10 +95,10 @@ export default function ToolsGrid() {
                   {/* Footer */}
                   <div className="border-t border-[#1f1f1f] pt-4 flex items-center justify-between">
                     <div>
-                      <div className="font-mono text-[10px] tracking-[0.1em] text-[#FF6200] uppercase">
+                      <div className="font-mono text-[11px] tracking-[0.1em] text-[#3B82F6] uppercase">
                         From {tool.proPriceMonthly}
                       </div>
-                      <div className="font-mono text-[10px] text-[#444] mt-1">
+                      <div className="font-sans text-[12px] text-[#666] mt-1.5">
                         {tool.bestFor}
                       </div>
                     </div>
