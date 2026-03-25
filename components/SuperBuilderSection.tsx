@@ -156,7 +156,7 @@ export default function SuperBuilderSection() {
                     From $25/mo
                   </div>
                   <div className="font-sans text-[13px] text-[#666] mt-1">
-                    Start with Business Plan $50/month and expand based on requirement
+                    Start with Business Plan and then scale with enterprise post analyzing usage
                   </div>
                 </div>
                 <div className="text-right">
