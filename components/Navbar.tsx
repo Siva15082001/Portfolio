@@ -26,35 +26,26 @@ export default function Navbar() {
     >
       {/* Scroll Progress Bar */}
       <div
-        className="absolute bottom-0 left-0 h-[2px] bg-[#FF6200] transition-all duration-100 ease-out"
+        className="absolute bottom-0 left-0 h-[2px] bg-[#3B82F6] transition-all duration-100 ease-out"
         style={{ width: `${scrollProgress}%` }}
       />
 
-      <div className="max-w-[1280px] mx-auto px-6 h-14 flex items-center justify-between">
+      <div className="max-w-[1280px] mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <div className="w-7 h-7 bg-[#FF6200] flex items-center justify-center">
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-              <path
-                d="M2 3L7 1L12 3V7C12 10 7 13 7 13C7 13 2 10 2 7V3Z"
-                fill="white"
-                opacity="0.9"
-              />
-              <path d="M5 6.5L7 8.5L11 4.5" stroke="#FF6200" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
+          {/* Logo placeholder - replace with actual logo */}
+          <div className="h-8">
+            <span className="font-display text-[24px] leading-none text-[#f0f0f0]">MOTIVE</span>
           </div>
-          <span className="font-mono text-[11px] tracking-[0.2em] text-[#f0f0f0] uppercase">
-            Motive Eng
-          </span>
         </div>
 
         {/* Nav Links */}
         <div className="hidden md:flex items-center gap-8">
-          {['Why Vibe', 'Tools', 'Compare', 'Pricing', 'Use Cases'].map((link) => (
+          {['Why Vibe', 'Tools', 'Compare', 'Pricing', 'Recommendation'].map((link) => (
             <a
               key={link}
               href={`#${link.toLowerCase().replace(/ /g, '-')}`}
-              className="font-mono text-[11px] tracking-[0.15em] text-[#666] hover:text-[#FF6200] transition-colors duration-200 uppercase"
+              className="font-mono text-[12px] tracking-[0.15em] text-[#666] hover:text-[#3B82F6] transition-colors duration-200 uppercase"
             >
               {link}
             </a>
@@ -62,8 +53,8 @@ export default function Navbar() {
         </div>
 
         {/* Right Tag */}
-        <div className="border border-[#FF6200]/40 px-3 py-1">
-          <span className="font-mono text-[10px] tracking-[0.2em] text-[#FF6200] uppercase">
+        <div className="border border-[#3B82F6]/40 px-3 py-1.5">
+          <span className="font-mono text-[11px] tracking-[0.2em] text-[#3B82F6] uppercase">
             Q2 2026
           </span>
         </div>

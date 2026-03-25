@@ -4,7 +4,7 @@ import WhySection from '@/components/WhySection';
 import ToolsGrid from '@/components/ToolsGrid';
 import ComparisonTable from '@/components/ComparisonTable';
 import PricingSection from '@/components/PricingSection';
-import UseCaseMatrix from '@/components/UseCaseMatrix';
+import SuperBuilderSection from '@/components/SuperBuilderSection';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
       <ToolsGrid />
       <ComparisonTable />
       <PricingSection />
-      <UseCaseMatrix />
+      <SuperBuilderSection />
       <Footer />
     </main>
   );

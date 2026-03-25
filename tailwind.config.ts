@@ -21,7 +21,7 @@ const config: Config = {
         border: "#1f1f1f",
         "border-bright": "#2e2e2e",
         muted: "#666666",
-        accent: "#FF6200",
+        accent: "#3B82F6",
       },
     },
   },

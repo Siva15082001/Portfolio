@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Vibe Coding Landscape — Motive Engineering",
+  title: "Vibe Coding Landscape — Motive Technologies Inc",
   description:
-    "Internal engineering reference: 8 vibe coding tools analyzed for Motive's product & engineering teams. Pricing, features, and use-case recommendations — Q2 2026.",
+    "Product team reference: 8 vibe coding tools analyzed for Motive Technologies. Pricing, features, and builder recommendations — Q2 2026.",
 };
 
 export default function RootLayout({
