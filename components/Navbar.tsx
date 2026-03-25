@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -32,11 +33,14 @@ export default function Navbar() {
 
       <div className="max-w-[1280px] mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-3">
-          <img
+        <div className="flex items-center">
+          <Image
             src="/motive-logo.png"
-            alt="Motive Technologies"
+            alt="Motive"
+            width={120}
+            height={32}
             className="h-8 w-auto"
+            priority
           />
         </div>
 
