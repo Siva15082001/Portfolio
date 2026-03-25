@@ -82,7 +82,7 @@ export default function SuperBuilderSection() {
                     From $20/mo
                   </div>
                   <div className="font-sans text-[13px] text-[#666] mt-1">
-                    Pro plan required
+                    Start with Pro plan and expand on requirement
                   </div>
                 </div>
                 <div className="text-right">
@@ -156,7 +156,7 @@ export default function SuperBuilderSection() {
                     From $25/mo
                   </div>
                   <div className="font-sans text-[13px] text-[#666] mt-1">
-                    5 credits/day free
+                    Start with Business Plan $50/month and expand based on requirement
                   </div>
                 </div>
                 <div className="text-right">
