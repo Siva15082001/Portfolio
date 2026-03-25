@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function Footer() {
   const currentDate = new Date().toLocaleDateString('en-US', {
     month: 'long',
@@ -12,14 +10,13 @@ export default function Footer() {
         {/* Top Row */}
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 pb-10 border-b border-[#1f1f1f]">
           {/* Left: Logo */}
-          <div className="flex items-center">
-            <Image
-              src="/motive-logo.png"
-              alt="Motive Technologies Inc"
-              width={160}
-              height={44}
-              className="h-11 w-auto"
-            />
+          <div className="flex flex-col">
+            <span className="font-display text-[36px] leading-none text-[#f0f0f0] uppercase tracking-tight">
+              MOTIVE
+            </span>
+            <span className="font-sans text-[13px] text-[#666] mt-1">
+              Technologies Inc
+            </span>
           </div>
 
           {/* Right: Meta */}
