@@ -3,6 +3,7 @@ import { tools } from '@/data/tools';
 export default function PricingSection() {
   const row1 = tools.slice(0, 4);
   const row2 = tools.slice(4, 8);
+  const row3 = tools.slice(8, 12);
 
   const PricingCard = ({ tool }: { tool: (typeof tools)[0] }) => (
     <div className="group border border-[#1f1f1f] hover:border-[#2e2e2e] bg-[#0f0f0f] hover:bg-[#161616] p-7 flex flex-col transition-all duration-200 cursor-default">
@@ -93,8 +94,13 @@ export default function PricingSection() {
             <PricingCard key={tool.id} tool={tool} />
           ))}
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
           {row2.map((tool) => (
+            <PricingCard key={tool.id} tool={tool} />
+          ))}
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {row3.map((tool) => (
             <PricingCard key={tool.id} tool={tool} />
           ))}
         </div>

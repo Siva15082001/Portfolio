@@ -22,7 +22,7 @@ export default function ToolsGrid() {
           <div className="h-[1px] flex-1 bg-[#1f1f1f]" />
         </div>
         <h2 className="font-display text-[clamp(48px,6vw,96px)] leading-[0.95] text-[#f0f0f0] uppercase mt-6">
-          The 8 Tools
+          The 12 Tools
           <br />
           <span className="text-[#3B82F6]">That Matter</span>
         </h2>
